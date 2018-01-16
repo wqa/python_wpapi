@@ -35,7 +35,7 @@ pip install python_wpapi
 ## Usage
 
 ```
-from python_wpapi import WpApi
+from python_wpapi.python_wpapi import WpApi
 
 api1 = WpApi('http://example.com') # No authentication. Public endpoints only
 api2 = WpApi('http://example.com', user='User', password='pwd') # Basic Auth
